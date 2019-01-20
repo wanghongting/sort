@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <input type="text" id='inp'><button class='sousuo'>搜索</button>
+        </div>
+        <div class='sorts-wrap'>
+            <p>
+                <select name="" id="sec">
+                    <option value="normal">综合排序</option>
+                    <option value="goup">价格从低到高排序</option>
+                    <option value="godown">价格从高到低排序</option>
+                    <option value="edit">信用排序</option>
+                </select>
+            </p>
+            <p class='sale'>销量排序</p>
+            <p class='changeimg'>切换视图</p>
+        </div>
+        <div class="section">
+            <div class="scroll-content" up="上拉加载" id='con'>
+                <!-- <div class='lists'>
+
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src='./js/lib/require.js' data-main='./js/index.js'></script>
+</body>
+
+</html>

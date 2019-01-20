@@ -1,0 +1,23 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "排序练习完善",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanghongting/sort.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanghongting/sort/issues"
+  },
+  "homepage": "https://github.com/wanghongting/sort#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
+}
